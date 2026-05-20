@@ -42,6 +42,7 @@ function App() {
             rating={flower.rating}
             description={flower.description}
             age={flower.age}
+            data={flower}
           />
         );
       })}
